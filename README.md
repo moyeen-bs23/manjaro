@@ -63,3 +63,42 @@ Open **Pacman** and search for **Maven** & **IntelliJ IDEA**
 ***Install from the "Respositories" section NOT AUR***
 
 If prompt for open jdk, select open jdk8
+
+
+## Install Docker:
+	sudo pacman -S docker
+	
+## AEM Installation Process: 
+
+### Extract AEM zip files and run command from that location
+---
+
+	sudo systemctl start docker
+
+	sudo systemctl enable docker //Enable Docker as a service, no need to start everytime after rebooting
+
+	sudo docker image load -i=aem_author_v6.3.2.tar
+
+	sudo docker image load -i=aem_publish_v6.3.2.tar
+
+	sudo docker run --network=host --name=author registry.gitlab.com/aem-docker/6.3.2:author -p 4502:4502 -p 9511:9511
+
+	sudo docker run --network=host --name=publish registry.gitlab.com/aem-docker/6.3.2:publish -p 4503:4503 -p 9512:9512 
+
+
+### Start Command in every morning:
+---
+
+	sudo docker start author
+	sudo docker start publish
+
+
+### Restart command if start command is not working:
+---
+
+	sudo docker stop author
+	sudo docker rm author
+
+	sudo docker stop publish
+	sudo docker rm publish
+
