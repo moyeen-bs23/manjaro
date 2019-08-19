@@ -57,12 +57,16 @@ Link: https://github.com/Jguer/yay
 	PATH=$JAVA_HOME/bin:$PATH
 	export PATH
 
-## Install Maven & IntelliJ IDEA:
-Open **Pacman** and search for **Maven** & **IntelliJ IDEA**
+## Install Maven & IntelliJ IDEA Ultimnate Edition:
+Open **Pacman** and search for **Maven** & **IntelliJ IDEA Ultimate**
 
 ***Install from the "Respositories" section NOT AUR***
 
 If prompt for open jdk, select open jdk8
+
+## Pacman Useful Commands:
+`pacman -Qm` shows only those installed locally,
+Please just use `pacman -R` or `pacman -Rs` if you want to remove the uneeded dependencies too.
 
 
 ## Install Docker:
