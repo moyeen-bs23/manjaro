@@ -57,7 +57,7 @@ Link: https://github.com/Jguer/yay
 	PATH=$JAVA_HOME/bin:$PATH
 	export PATH
 
-## Install Maven & IntelliJ IDEA Ultimnate Edition:
+## Install Maven & IntelliJ IDEA Ultimate Edition:
 Open **Pacman** and search for **Maven** & **IntelliJ IDEA Ultimate**
 
 ***Install from the "Respositories" section NOT AUR***
