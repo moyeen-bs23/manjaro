@@ -33,7 +33,7 @@ Link: https://github.com/Jguer/yay
 ## Install jdk8:
 * Download jdk8 ***Linux X64 .tar.gz*** file from oracle website 
 
-	Link: https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html
+	Link: https://download.oracle.com/otn-pub/java/jdk/8u281-b09/89d678f2be164786b292527658ca1605/jdk-8u281-linux-aarch64.tar.gz
 
 * Extract it to desired location
 * Open File Manager and enable hidden files
