@@ -33,7 +33,14 @@ Link: https://github.com/Jguer/yay
 ## Install jdk8:
 * Download jdk8 ***Linux X64 .tar.gz*** file from oracle website 
 
-	Link: https://download.oracle.com/otn-pub/java/jdk/8u281-b09/89d678f2be164786b292527658ca1605/jdk-8u281-linux-aarch64.tar.gz
+	Link: https://www.oracle.com/java/technologies/javase/javase-jdk8-downloads.html
+	To download without creating account:
+	Click on the desired download version depending on OS
+	Copy the download link address and paste it in a new tab
+	Copy the nexturl part and change the otn to otn-pub after https://download.oracle.com/
+	Example: https://download.oracle.com/otn-pub/java/jdk/8u281-b09/89d678f2be164786b292527658ca1605/jdk-8u281-linux-aarch64.rpm
+	The file will be downloaded without requiring to create an account
+	
 
 * Extract it to desired location
 * Open File Manager and enable hidden files
